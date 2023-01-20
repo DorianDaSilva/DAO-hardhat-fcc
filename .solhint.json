@@ -1,0 +1,11 @@
+{
+    "extends": "solhint:recommended",
+    "rules": {
+      "compiler-version": ["error", "^0.8.9"],
+      "func-visibility": ["warn", { "ignoreConstructors": true }],
+      "prettier/prettier": "warning",
+      "var-name-mixedcase": "false",
+      "no-empty-blocks": "false"
+    },
+    "plugins": ["prettier"]
+  }
